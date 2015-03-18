@@ -1,0 +1,10 @@
+{
+  "require-dev": {
+    "symfony/yaml": "~2.6.5"
+  },
+  "autoload": {
+    "psr-4": {
+      "Drush\\Make\\Parser\\": "src"
+    }
+  }
+}
