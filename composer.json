@@ -1,4 +1,8 @@
 {
+  "name": "drush/make-parser",
+  "type": "library",
+  "license": "GPL-2.0+",
+  "prefer-stable": true,
   "require-dev": {
     "symfony/yaml": "~2.6.5"
   },
