@@ -5,7 +5,13 @@ Splited from Drush package. Check test cases for more details.
 
 ### Usage
 
-Require the library using composer: `composer require drush/make-parser:1.*@dev`. Then in PHP code, we can:
+Require the library using composer: 
+
+```bash
+composer require drush/make-parser:1.*@dev
+```
+
+Then in PHP code, we can:
 
 ```php
 require_once '/path/to/vendor/autoload.php';
