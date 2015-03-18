@@ -2,3 +2,9 @@ Make parser [![Build Status](https://travis-ci.org/andytruong/make-parser.svg)](
 ====
 
 Splited from Drush package. Check test cases for more details.
+
+### Usage
+
+```php
+$make = make_parse_info_file('/path/to/project-name.make');
+```
