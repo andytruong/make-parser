@@ -41,4 +41,10 @@ class ParserIniTest extends \PHPUnit_Framework_TestCase
         // @todo make more tests.
         return $snippets;
     }
+
+    function testFunctions()
+    {
+        $make = make_parse_info_file(__DIR__ . '/fixtures/drupal.make');
+        $this->assertArrayHasKey('pull-39', $make['projects']['drupal']['patch'], "Sub file is included correctly.");
+    }
 }

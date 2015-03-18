@@ -9,6 +9,7 @@
   "autoload": {
     "psr-4": {
       "Drush\\Make\\Parser\\": "src"
-    }
+    },
+    "files": ["make.utilities.inc"]
   }
 }
